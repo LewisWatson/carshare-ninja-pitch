@@ -41,15 +41,36 @@ The scoring system also flexible and can handle
 
 ## Technical Overview
 
-![Architecture Overview](images/carshare.ninja.svg)
+![Architecture Overview](images/carshare.ninja.png)
 
 #VSLIDE
 
 ## API
 
+- Written in Go
+- Uses JSON:API
+- Deployed via docker containers in Kubernetes
+- Authentication via Firebase JWT tokens
+- MongoDB data store
+
 #VSLIDE
 
 ## Front End
+
+- Written in Angular2
+- Material design
+- Progressive Web Application
+  - Open Web
+  - Service workers
+  - Offline first
+- Firebase authentication
+  - JWT token included with every API call
+
+#HSLIDE
+
+# Current State
+
+#VSLIDE
 
 #HSLIDE
 
