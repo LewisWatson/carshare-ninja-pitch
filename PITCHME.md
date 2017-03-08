@@ -41,7 +41,7 @@ The scoring system also flexible and can handle
 
 #VSLIDE
 
-![Architecture Overview](assets/overview.png)
+[![Architecture Overview](assets/overview.png)](assets/overview.svg)
 
 #VSLIDE
 
