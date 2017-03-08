@@ -41,16 +41,13 @@ The scoring system also flexible and can handle
 
 #VSLIDE
 
-![Architecture Overview](assets/overview.png)
-
-#VSLIDE
-
 ## API
 
 - Stateless microservice written Go  <!-- .element: class="fragment" data-fragment-index="1" -->
 - To be deployed as an autoscaling service in Kubernetes <!-- .element: class="fragment" data-fragment-index="2" -->
 - Authentication via Firebase JWT tokens <!-- .element: class="fragment" data-fragment-index="3" -->
   - I created library for this: [firebase-jwt-auth](https://github.com/LewisWatson/firebase-jwt-auth) <!-- .element: class="fragment" data-fragment-index="4" -->
+- RESTful and conforms to JSON:API specifications
 - Scalable data persistance via MongoDB <!-- .element: class="fragment" data-fragment-index="5" -->
 
 #VSLIDE
@@ -64,6 +61,7 @@ The scoring system also flexible and can handle
   - Service workers <!-- .element: class="fragment" data-fragment-index="3" -->
   - Offline first <!-- .element: class="fragment" data-fragment-index="3" -->
 - Firebase authentication <!-- .element: class="fragment" data-fragment-index="4" -->
+  - Username/Password, social, anonymous <!-- .element: class="fragment" data-fragment-index="4" -->
   - JWT token included with every API call <!-- .element: class="fragment" data-fragment-index="4" -->
 
 #HSLIDE
@@ -74,13 +72,28 @@ The scoring system also flexible and can handle
 
 ## Front End
 
-- Implemented some of the key views
-- Supports Firebase anonymouse authentication. 
+- Implemented some of the key screens
+  - Still need to implement the full set
+- Firebase anonymous authentication.
   - More providers to come
   - JWT included in every API call
-- PWA mostly implemented, still need to tackle offline first
+- PWA features mostly implemented, still need to tackle offline first
+- Hosted on Firebase.
+- HTTPS certificate provided by LetsEncrypt
 
 #VSLIDE
+
+## API
+
+- Supports most required actions
+- Integrates with MongoDB
+- Docker image available on dockerhub
+- Able to verify Firebase JWT Tokens
+- Currently restricting access based on JWT
+
+#VSLIDE
+
+![Architecture Overview](assets/overview.png)
 
 #HSLIDE
 
@@ -88,9 +101,9 @@ The scoring system also flexible and can handle
 
 #VSLIDE
 
-## Early preview of Progressive Web App available at
+#### Early Preview of Progressive Web App available at
 
-### [https://carshare.ninja](https://carshare.ninja)
+[https://carshare.ninja](https://carshare.ninja)
 
 #HSLIDE
 
