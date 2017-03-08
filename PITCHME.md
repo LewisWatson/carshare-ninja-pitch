@@ -1,8 +1,6 @@
 #HSLIDE
 
-![LOGO](https://carshare.ninja/assets/icons/android-chrome-192x192.png)
-
-## Take the hassle out of managing a car share
+# carshare.ninja
 
 #HSLIDE
 
