@@ -4,17 +4,17 @@
 
 #HSLIDE
 
-## What is Car Share Ninja?
+## What is carshare.ninja
 
 - Tracks of who does what in a car share <!-- .element: class="fragment" data-fragment-index="1" -->
 - Suggests who should drive next <!-- .element: class="fragment" data-fragment-index="2" -->
-- Flexible while remaining fair <!-- .element: class="fragment" data-fragment-index="3" -->
-- Progressive Web Application <!-- .element: class="fragment" data-fragment-index="4" -->
+- Driven by a flexible and fair scoring algorithm<!-- .element: class="fragment" data-fragment-index="3" -->
+- Accessible via Progressive Web Application <!-- .element: class="fragment" data-fragment-index="4" -->
   - Reliable - loads instantly even with unreliable network
   - Fast - won't leave you hanging, you've got somewhere to go!
   - Engaging - feels like a native app
 
-#HSLIDE
+#VSLIDE
 
 ## Member Scoring System
 
@@ -39,7 +39,7 @@ The scoring system also flexible and can handle
 
 ## Technical Overview
 
-![Architecture Overview](images/carshare.ninja.png)
+![Architecture Overview](assets/overview.png)
 
 #VSLIDE
 
