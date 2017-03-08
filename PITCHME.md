@@ -20,7 +20,7 @@
 
 ## Member Scoring System
 
-$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+`$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$`
 
 Each car share member gets a score derived from the ratio of miles travelled as driver vs miles travelled as passenger
 
