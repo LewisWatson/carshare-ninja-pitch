@@ -12,9 +12,9 @@
 - Suggests who should drive next <!-- .element: class="fragment" data-fragment-index="2" -->
 - Flexible while remaining fair <!-- .element: class="fragment" data-fragment-index="3" -->
 - Progressive Web Application <!-- .element: class="fragment" data-fragment-index="4" -->
- - Reliable - loads instantly even with unreliable network
- - Fast - won't leave you hanging, you've got somewhere to go!
- - Engaging - feels like a native app
+  - Reliable - loads instantly even with unreliable network
+  - Fast - won't leave you hanging, you've got somewhere to go!
+  - Engaging - feels like a native app
 
 #HSLIDE
 
@@ -31,6 +31,7 @@ Ranking members by the benefit they personally recieve keeps things simple and f
 #VSLIDE
 
 The scoring system also flexible and can handle
+
 - holidays <!-- .element: class="fragment" data-fragment-index="1" -->
 - sick days <!-- .element: class="fragment" data-fragment-index="2" -->
 - differing shift patterns <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -39,6 +40,8 @@ The scoring system also flexible and can handle
 #HSLIDE
 
 ## Technical Overview
+
+![Architecture Overview](images/carshare.ninja.svg)
 
 #VSLIDE
 
