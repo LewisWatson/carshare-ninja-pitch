@@ -22,21 +22,17 @@
 
 `$$Member Score = \frac{Distance Travelled as Driver}{Distance Travelled as Passenger}$$`
 
-Each car share member gets a score derived from the ratio of miles travelled as driver vs miles travelled as passenger
-
 Members with the most favourable score should drive next
 
 #VSLIDE
 
 ## Benefits
 
-### Ranking members simply by the benefit they personally recieve it keeps things fair and simple
-
-#### Even if members participate with varying frequency or travel different distances
+Ranking members by the benefit they personally recieve keeps things simple and fair.
 
 #VSLIDE
 
-This is espcecially handy in the event of
+The scoring system also flexible and can handle
 - holidays
 - sick days
 - differing shift patterns
