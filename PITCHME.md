@@ -47,24 +47,24 @@ The scoring system also flexible and can handle
 
 ## API
 
-- Written in Go
-- Uses JSON:API
-- Deployed via docker containers in Kubernetes
-- Authentication via Firebase JWT tokens
-- MongoDB data store
+- Stateless microservice written Go  <!-- .element: class="fragment" data-fragment-index="1" -->
+- To be deployed as an autoscaling service in Kubernetes <!-- .element: class="fragment" data-fragment-index="2" -->
+- Authentication via Firebase JWT tokens <!-- .element: class="fragment" data-fragment-index="3" -->
+  - I created library for this: [firebase-jwt-auth](https://github.com/LewisWatson/firebase-jwt-auth) <!-- .element: class="fragment" data-fragment-index="4" -->
+- Scalable data persistance via MongoDB <!-- .element: class="fragment" data-fragment-index="5" -->
 
 #VSLIDE
 
 ## Front End
 
-- Written in Angular2
-- Material design
-- Progressive Web Application
-  - Open Web
-  - Service workers
-  - Offline first
-- Firebase authentication
-  - JWT token included with every API call
+- Written in Angular2  <!-- .element: class="fragment" data-fragment-index="1" -->
+- Material design <!-- .element: class="fragment" data-fragment-index="2" -->
+- Progressive Web Application <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Open Web <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Service workers <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Offline first <!-- .element: class="fragment" data-fragment-index="3" -->
+- Firebase authentication <!-- .element: class="fragment" data-fragment-index="4" -->
+  - JWT token included with every API call <!-- .element: class="fragment" data-fragment-index="4" -->
 
 #HSLIDE
 
@@ -72,6 +72,26 @@ The scoring system also flexible and can handle
 
 #VSLIDE
 
+## Front End
+
+- Implemented some of the key views
+- Supports Firebase anonymouse authentication. 
+  - More providers to come
+  - JWT included in every API call
+- PWA mostly implemented, still need to tackle offline first
+
+#VSLIDE
+
 #HSLIDE
 
-## fin
+## One More Thing...
+
+#VSLIDE
+
+## Early preview of Progressive Web App available at
+
+### [https://carshare.ninja](https://carshare.ninja)
+
+#HSLIDE
+
+FIN
