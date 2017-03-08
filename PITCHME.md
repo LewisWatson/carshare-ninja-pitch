@@ -16,18 +16,18 @@ A web application that aims to:
 #HSLIDE
 
 ### Member Scoring System
-<br>
-<span style="color:gray">Each car share member gets a score derived from the ratio of miles travelled as driver vs miles travelled as passenger</span>
-<br>
-<span style="color:gray">Member with the most favourable score should drive next</span>
+
+Each car share member gets a score derived from the ratio of miles travelled as driver vs miles travelled as passenger
+
+Members with the most favourable score should drive next
 
 #VSLIDE
 
 ### Benefits of the Scoring System
-<br>
-<span style="color:gray">By ranking members simply by the benefit they personally recieve it keeps things fair and simple</span>
-<br>
-<span style="color:gray"> Even if members participate with varying frequency or travel different distances</span>
+
+By ranking members simply by the benefit they personally recieve it keeps things fair and simple
+
+Even if members participate with varying frequency or travel different distances
 
 #VSLIDE
 
@@ -39,4 +39,16 @@ This is espcecially handy in the event of
 
 #HSLIDE
 
+## Technical Overview
 
+#VSLIDE
+
+## API
+
+# VSLIDE
+
+## Front End
+
+#HSLIDE
+
+## fin
