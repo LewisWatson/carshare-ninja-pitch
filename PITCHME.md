@@ -20,9 +20,9 @@
 
 ## Member Scoring System
 
-`$$Member Score = \frac{Distance Travelled as Driver}{Distance Travelled as Passenger}$$`
+`$$Score = \frac{DistanceAsPassenger}{DistanceAsDriver}$$`
 
-Members with the most favourable score should drive next
+Members with the lowest score should drive next <!-- .element: class="fragment" data-fragment-index="2" -->
 
 #VSLIDE
 
