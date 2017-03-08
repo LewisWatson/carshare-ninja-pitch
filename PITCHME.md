@@ -22,8 +22,6 @@
 
 $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
-$$ Member Score = \frac{distance travelled as driver}{distance travelled as passenger}$$
-
 Each car share member gets a score derived from the ratio of miles travelled as driver vs miles travelled as passenger
 
 Members with the most favourable score should drive next
