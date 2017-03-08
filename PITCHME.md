@@ -8,7 +8,7 @@
 
 - Tracks of who does what in a car share <!-- .element: class="fragment" data-fragment-index="1" -->
 - Suggests who should drive next <!-- .element: class="fragment" data-fragment-index="2" -->
-- Driven by a flexible and fair scoring algorithm<!-- .element: class="fragment" data-fragment-index="3" -->
+- Driven by a flexible and fair scoring algorithm <!-- .element: class="fragment" data-fragment-index="3" -->
 - Accessible via Progressive Web Application <!-- .element: class="fragment" data-fragment-index="4" -->
   - Reliable - loads instantly even with unreliable network
   - Fast - won't leave you hanging, you've got somewhere to go!
@@ -46,7 +46,7 @@ The scoring system also flexible and can handle
 - Stateless microservice written Go  <!-- .element: class="fragment" data-fragment-index="1" -->
 - To be deployed as an autoscaling service in Kubernetes <!-- .element: class="fragment" data-fragment-index="2" -->
 - Authentication via Firebase JWT tokens <!-- .element: class="fragment" data-fragment-index="3" -->
-  - I created library for this called [firebase-jwt-auth](https://github.com/LewisWatson/firebase-jwt-auth) <!-- .element: class="fragment" data-fragment-index="4" -->
+  - I created library for this called [firebase-jwt-auth](https://github.com/LewisWatson/firebase-jwt-auth)
 - RESTful and conforms to JSON:API specifications <!-- .element: class="fragment" data-fragment-index="5" -->
 - Scalable data persistance via MongoDB <!-- .element: class="fragment" data-fragment-index="6" -->
 
@@ -57,12 +57,12 @@ The scoring system also flexible and can handle
 - Written in Angular2  <!-- .element: class="fragment" data-fragment-index="1" -->
 - Material design <!-- .element: class="fragment" data-fragment-index="2" -->
 - Progressive Web Application <!-- .element: class="fragment" data-fragment-index="3" -->
-  - Open Web <!-- .element: class="fragment" data-fragment-index="3" -->
-  - Service workers <!-- .element: class="fragment" data-fragment-index="3" -->
-  - Offline first <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Open Web
+  - Service workers
+  - Offline first
 - Firebase authentication <!-- .element: class="fragment" data-fragment-index="4" -->
-  - Username/Password, social, anonymous <!-- .element: class="fragment" data-fragment-index="4" -->
-  - JWT token included with every API call <!-- .element: class="fragment" data-fragment-index="4" -->
+  - Username/Password, social, anonymous 
+  - JWT token included with every API call
 
 #VSLIDE
 
@@ -94,6 +94,7 @@ The scoring system also flexible and can handle
 - Docker image available on dockerhub
 - Able to verify Firebase JWT Tokens
 - Currently restricting access based on JWT
+- Need to figure out where to host it
 
 #HSLIDE
 
