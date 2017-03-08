@@ -37,7 +37,7 @@ The scoring system also flexible and can handle
 
 #HSLIDE
 
-## Technical Overview
+#### Technical Overview
 
 ![Architecture Overview](assets/overview.png)
 
