@@ -26,17 +26,15 @@ Members with the lowest score should drive next <!-- .element: class="fragment" 
 
 #VSLIDE
 
-## Benefits
-
 Ranking members by the benefit they personally recieve keeps things simple and fair.
 
 #VSLIDE
 
 The scoring system also flexible and can handle
-- holidays
-- sick days
-- differing shift patterns
-- differing distances. Maybe you pick a member up on the way?
+- holidays <!-- .element: class="fragment" data-fragment-index="1" -->
+- sick days <!-- .element: class="fragment" data-fragment-index="2" -->
+- differing shift patterns <!-- .element: class="fragment" data-fragment-index="3" -->
+- differing distances. Maybe you pick a member up on the way? <!-- .element: class="fragment" data-fragment-index="4" -->
 
 #HSLIDE
 
