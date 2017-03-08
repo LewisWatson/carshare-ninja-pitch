@@ -46,9 +46,9 @@ The scoring system also flexible and can handle
 - Stateless microservice written Go  <!-- .element: class="fragment" data-fragment-index="1" -->
 - To be deployed as an autoscaling service in Kubernetes <!-- .element: class="fragment" data-fragment-index="2" -->
 - Authentication via Firebase JWT tokens <!-- .element: class="fragment" data-fragment-index="3" -->
-  - I created library for this: [firebase-jwt-auth](https://github.com/LewisWatson/firebase-jwt-auth) <!-- .element: class="fragment" data-fragment-index="4" -->
-- RESTful and conforms to JSON:API specifications
-- Scalable data persistance via MongoDB <!-- .element: class="fragment" data-fragment-index="5" -->
+  - I created library for this called [firebase-jwt-auth](https://github.com/LewisWatson/firebase-jwt-auth) <!-- .element: class="fragment" data-fragment-index="4" -->
+- RESTful and conforms to JSON:API specifications <!-- .element: class="fragment" data-fragment-index="5" -->
+- Scalable data persistance via MongoDB <!-- .element: class="fragment" data-fragment-index="6" -->
 
 #VSLIDE
 
@@ -63,6 +63,10 @@ The scoring system also flexible and can handle
 - Firebase authentication <!-- .element: class="fragment" data-fragment-index="4" -->
   - Username/Password, social, anonymous <!-- .element: class="fragment" data-fragment-index="4" -->
   - JWT token included with every API call <!-- .element: class="fragment" data-fragment-index="4" -->
+
+#VSLIDE
+
+![Architecture Overview](assets/overview.png)
 
 #HSLIDE
 
@@ -90,10 +94,6 @@ The scoring system also flexible and can handle
 - Docker image available on dockerhub
 - Able to verify Firebase JWT Tokens
 - Currently restricting access based on JWT
-
-#VSLIDE
-
-![Architecture Overview](assets/overview.png)
 
 #HSLIDE
 
