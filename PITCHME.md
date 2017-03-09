@@ -48,7 +48,7 @@ Can handle: <!-- .element: class="fragment" data-fragment-index="1" -->
 - Stateless microservice written Go  <!-- .element: class="fragment" data-fragment-index="1" -->
 - To be deployed as an autoscaling service in Kubernetes <!-- .element: class="fragment" data-fragment-index="2" -->
 - Firebase JWT Authentication <!-- .element: class="fragment" data-fragment-index="3" -->
-  - I created library for this called [firebase-jwt-auth](https://github.com/LewisWatson/firebase-jwt-auth)
+  - Library created called [firebase-jwt-auth](https://github.com/LewisWatson/firebase-jwt-auth)
 - RESTful and implements JSON:API <!-- .element: class="fragment" data-fragment-index="4" -->
 - MongoDB data store <!-- .element: class="fragment" data-fragment-index="5" -->
 
@@ -59,12 +59,12 @@ Can handle: <!-- .element: class="fragment" data-fragment-index="1" -->
 - Progressive Web Application written in Angular2  <!-- .element: class="fragment" data-fragment-index="1" -->
 - Material design <!-- .element: class="fragment" data-fragment-index="2" -->
 - Firebase authentication <!-- .element: class="fragment" data-fragment-index="7" -->
-  - Username/Password, social, anonymous 
+  - Username/Password, social, and anonymous
   - JWT token included with every API call
 
 #VSLIDE
 
-## Progressive Web Application
+## Progressive Web Applications
 
 User experiences that have the reach of the web, and are reliable, fast, and engaging.
 
@@ -87,8 +87,8 @@ User experiences that have the reach of the web, and are reliable, fast, and eng
 - Docker image
 - Firebase JWT support
 - `//TODO` <!-- .element: class="fragment" data-fragment-index="1" -->
-  - Restrict access based on user
-  - Need to figure out where to host it
+  - Restrict access based on user <!-- .element: class="fragment" data-fragment-index="1" -->
+  - Need to figure out where to host it <!-- .element: class="fragment" data-fragment-index="1" -->
 
 #VSLIDE
 
@@ -101,9 +101,9 @@ User experiences that have the reach of the web, and are reliable, fast, and eng
 - Hosted on Firebase.
 - LetsEncrypt HTTPS certificate
 - `//TODO` <!-- .element: class="fragment" data-fragment-index="1" -->
-  - Finish implementing UI
-  - Add more authentication providers
-  - Cache API data to fully implement Offline First
+  - Finish implementing UI <!-- .element: class="fragment" data-fragment-index="1" -->
+  - Add more authentication providers <!-- .element: class="fragment" data-fragment-index="1" -->
+  - Cache API data to fully implement Offline First <!-- .element: class="fragment" data-fragment-index="1" -->
 
 #HSLIDE
 
