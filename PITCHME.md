@@ -11,7 +11,7 @@
 - Driven by a flexible and fair scoring algorithm <!-- .element: class="fragment" data-fragment-index="3" -->
 - Progressive Web Application <!-- .element: class="fragment" data-fragment-index="4" -->
   - Reliable - loads instantly even with unreliable network
-  - Fast - won't leave you hanging, you've got somewhere to go!
+  - Fast - won't leave you hanging, you and your buddies have somewhere to go!
   - Engaging - feels like a natural app on device
 
 #VSLIDE
