@@ -28,14 +28,14 @@ Ranking members by the benefit they personally recieve keeps things simple and f
 
 #VSLIDE
 
-Offers great flexibility.<!-- .element: class="fragment" data-fragment-index="1" --> 
+Offers great flexibility.
 
-Can handle: <!-- .element: class="fragment" data-fragment-index="2" -->
+Can handle: <!-- .element: class="fragment" data-fragment-index="1" -->
 
-- holidays <!-- .element: class="fragment" data-fragment-index="2" -->
-- sick days <!-- .element: class="fragment" data-fragment-index="2" -->
-- differing shift patterns <!-- .element: class="fragment" data-fragment-index="2" -->
-- differing distances, maybe you pick a member up on the way? <!-- .element: class="fragment" data-fragment-index="2" -->
+- holidays <!-- .element: class="fragment" data-fragment-index="1" -->
+- sick days <!-- .element: class="fragment" data-fragment-index="1" -->
+- differing shift patterns <!-- .element: class="fragment" data-fragment-index="1" -->
+- differing distances, maybe you pick a member up on the way? <!-- .element: class="fragment" data-fragment-index="1" -->
 
 #HSLIDE
 
