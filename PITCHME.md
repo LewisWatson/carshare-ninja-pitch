@@ -56,17 +56,23 @@ Can handle: <!-- .element: class="fragment" data-fragment-index="1" -->
 
 ## Front End
 
-- Written in Angular2  <!-- .element: class="fragment" data-fragment-index="1" -->
+- Progressive Web Application written in Angular2  <!-- .element: class="fragment" data-fragment-index="1" -->
 - Material design <!-- .element: class="fragment" data-fragment-index="2" -->
-- Progressive Web Application <!-- .element: class="fragment" data-fragment-index="3" -->
-  - Benefit from the reach of the web <!-- .element: class="fragment" data-fragment-index="4" -->
-  - Service workers acting as client side proxy <!-- .element: class="fragment" data-fragment-index="5" -->
-    - Cache key resources to improve responsivenes
-    - App takes responsibility for what happens if there is no network
-  - Will earn it's place on users home screen, along side native apps <!-- .element: class="fragment" data-fragment-index="6" -->
 - Firebase authentication <!-- .element: class="fragment" data-fragment-index="7" -->
   - Username/Password, social, anonymous 
   - JWT token included with every API call
+
+#VSLIDE
+
+## Progressive Web Application
+
+User experiences that have the reach of the web, and are reliable, fast, and engaging.
+
+- Service workers acting as client side proxy <!-- .element: class="fragment" data-fragment-index="2" -->
+  - Cache key resources to improve responsivenes
+  - App takes responsibility for what happens if there is no network
+- Will earn it's place on users home screen, along side native apps <!-- .element: class="fragment" data-fragment-index="3" -->
+  - User promted to add to home screen <!-- .element: class="fragment" data-fragment-index="4" -->
 
 #HSLIDE
 
