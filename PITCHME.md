@@ -28,10 +28,9 @@ Ranking members by the benefit they personally recieve keeps things simple and f
 
 #VSLIDE
 
-Offers great flexibility.
+## Flexibility
 
 Can handle: <!-- .element: class="fragment" data-fragment-index="1" -->
-
 - holidays <!-- .element: class="fragment" data-fragment-index="1" -->
 - sick days <!-- .element: class="fragment" data-fragment-index="1" -->
 - differing shift patterns <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -71,8 +70,7 @@ User experiences that have the reach of the web, and are reliable, fast, and eng
 - Service workers acting as client side proxy <!-- .element: class="fragment" data-fragment-index="2" -->
   - Cache key resources to improve responsivenes
   - App takes responsibility for what happens if there is no network
-- Will earn it's place on users home screen, along side native apps <!-- .element: class="fragment" data-fragment-index="3" -->
-  - User promted to add to home screen <!-- .element: class="fragment" data-fragment-index="4" -->
+- Earns it's place on users home screen, along side native apps <!-- .element: class="fragment" data-fragment-index="3" -->
 
 #HSLIDE
 
@@ -82,28 +80,26 @@ User experiences that have the reach of the web, and are reliable, fast, and eng
 
 ## API
 
-- Majority of REST endpoints implemented
-- Integrates with MongoDB
-- Docker image
-- Firebase JWT support
-- TODO <!-- .element: class="fragment" data-fragment-index="1" -->
-  - Restrict access based on user <!-- .element: class="fragment" data-fragment-index="1" -->
-  - Need to figure out where to host it <!-- .element: class="fragment" data-fragment-index="1" -->
+- [x] Majority of REST endpoints implemented
+- [x] Integrates with MongoDB
+- [x] Docker image
+- [x] Firebase JWT support
+- [ ] Restrict access based on user <!-- .element: class="fragment" data-fragment-index="1" -->
+- [ ] Need to figure out where to host it <!-- .element: class="fragment" data-fragment-index="1" -->
 
 #VSLIDE
 
 ## Front End
 
-- Implemented some basic screens
-- Firebase anonymous authentication.
-  - JWT included in every API call
-- PWA features mostly implemented
-- Hosted on Firebase.
-- LetsEncrypt HTTPS certificate
-- TODO <!-- .element: class="fragment" data-fragment-index="1" -->
-  - Finish implementing UI <!-- .element: class="fragment" data-fragment-index="1" -->
-  - Add more authentication providers <!-- .element: class="fragment" data-fragment-index="1" -->
-  - Cache API data to fully implement Offline First <!-- .element: class="fragment" data-fragment-index="1" -->
+- [x] Implemented some basic screens
+- [x] Firebase anonymous authentication.
+  - [x] JWT included in every API call
+- [x] PWA features mostly implemented
+- [x] Hosted on Firebase.
+- [x] LetsEncrypt HTTPS certificate
+- [ ] Finish implementing UI <!-- .element: class="fragment" data-fragment-index="1" -->
+- [ ] Add more authentication providers <!-- .element: class="fragment" data-fragment-index="1" -->
+- [ ] Cache API data to fully implement Offline First <!-- .element: class="fragment" data-fragment-index="1" -->
 
 #HSLIDE
 
