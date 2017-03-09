@@ -20,7 +20,7 @@
 
 `$$Score = \frac{DistanceAsPassenger}{DistanceAsDriver}$$`
 
-Members with the lowest score should drive next <!-- .element: class="fragment" data-fragment-index="2" -->
+Members with the highest score should drive next <!-- .element: class="fragment" data-fragment-index="2" -->
 
 +++
 
