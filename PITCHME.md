@@ -9,10 +9,10 @@
 - Tracks of who does what in a car share <!-- .element: class="fragment" data-fragment-index="1" -->
 - Suggests who should drive next <!-- .element: class="fragment" data-fragment-index="2" -->
 - Driven by a flexible and fair scoring algorithm <!-- .element: class="fragment" data-fragment-index="3" -->
-- Accessible via Progressive Web Application <!-- .element: class="fragment" data-fragment-index="4" -->
+- Progressive Web Application <!-- .element: class="fragment" data-fragment-index="4" -->
   - Reliable - loads instantly even with unreliable network
   - Fast - won't leave you hanging, you've got somewhere to go!
-  - Engaging - feels like a native app
+  - Engaging - feels like a natural app on device
 
 #VSLIDE
 
@@ -59,10 +59,12 @@ Can handle: <!-- .element: class="fragment" data-fragment-index="2" -->
 - Written in Angular2  <!-- .element: class="fragment" data-fragment-index="1" -->
 - Material design <!-- .element: class="fragment" data-fragment-index="2" -->
 - Progressive Web Application <!-- .element: class="fragment" data-fragment-index="3" -->
-  - Open Web
-  - Service workers
-  - Offline first
-- Firebase authentication <!-- .element: class="fragment" data-fragment-index="4" -->
+  - Benefit from the reach of the web <!-- .element: class="fragment" data-fragment-index="4" -->
+  - Service workers acting as client side proxy <!-- .element: class="fragment" data-fragment-index="5" -->
+    - Cache key resources to improve responsivenes
+    - App takes responsibility for what happens if there is no network
+  - Will earn it's place on users home screen, along side native apps <!-- .element: class="fragment" data-fragment-index="6" -->
+- Firebase authentication <!-- .element: class="fragment" data-fragment-index="7" -->
   - Username/Password, social, anonymous 
   - JWT token included with every API call
 
@@ -78,7 +80,7 @@ Can handle: <!-- .element: class="fragment" data-fragment-index="2" -->
 - Integrates with MongoDB
 - Docker image
 - Firebase JWT support
-- TODO <!-- .element: class="fragment" data-fragment-index="1" -->
+- `//TODO` <!-- .element: class="fragment" data-fragment-index="1" -->
   - Restrict access based on user
   - Need to figure out where to host it
 
@@ -92,7 +94,7 @@ Can handle: <!-- .element: class="fragment" data-fragment-index="2" -->
 - PWA features mostly implemented
 - Hosted on Firebase.
 - LetsEncrypt HTTPS certificate
-- TODO <!-- .element: class="fragment" data-fragment-index="1" -->
+- `//TODO` <!-- .element: class="fragment" data-fragment-index="1" -->
   - Finish implementing UI
   - Add more authentication providers
   - Cache API data to fully implement Offline First
