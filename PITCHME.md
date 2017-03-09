@@ -28,12 +28,12 @@ Ranking members by the benefit they personally recieve keeps things simple and f
 
 #VSLIDE
 
-The scoring system also flexible and can handle
+Offers great flexibility.<!-- .element: class="fragment" data-fragment-index="1" --> Can handle: <!-- .element: class="fragment" data-fragment-index="2" -->
 
-- holidays <!-- .element: class="fragment" data-fragment-index="1" -->
-- sick days <!-- .element: class="fragment" data-fragment-index="2" -->
-- differing shift patterns <!-- .element: class="fragment" data-fragment-index="3" -->
-- differing distances. Maybe you pick a member up on the way? <!-- .element: class="fragment" data-fragment-index="4" -->
+- holidays <!-- .element: class="fragment" data-fragment-index="2" -->
+- sick days <!-- .element: class="fragment" data-fragment-index="3" -->
+- differing shift patterns <!-- .element: class="fragment" data-fragment-index="4" -->
+- differing distances. Maybe you pick a member up on the way? <!-- .element: class="fragment" data-fragment-index="5" -->
 
 #HSLIDE
 
@@ -74,27 +74,29 @@ The scoring system also flexible and can handle
 
 #VSLIDE
 
+## API
+
+- Majority of REST endpoints implemented
+- Integrates with MongoDB
+- Docker image
+- Able to verify Firebase JWT Tokens
+- TODO <!-- .element: class="fragment" data-fragment-index="1" -->
+  - Currently restricting access based on JWT
+  - Need to figure out where to host it
+
+#VSLIDE
+
 ## Front End
 
 - Implemented some of the key screens
-  - Still need to implement the full set
 - Firebase anonymous authentication.
-  - More providers to come
   - JWT included in every API call
 - PWA features mostly implemented, still need to tackle offline first
 - Hosted on Firebase.
 - HTTPS certificate provided by LetsEncrypt
-
-#VSLIDE
-
-## API
-
-- Supports most required actions
-- Integrates with MongoDB
-- Docker image available on dockerhub
-- Able to verify Firebase JWT Tokens
-- Currently restricting access based on JWT
-- Need to figure out where to host it
+- TODO <!-- .element: class="fragment" data-fragment-index="1" -->
+  - Still need to implement the full set of screens
+  - Add more authentication providers
 
 #HSLIDE
 
@@ -102,7 +104,7 @@ The scoring system also flexible and can handle
 
 #VSLIDE
 
-#### Early Preview of Progressive Web App available at
+#### Early Preview Available @
 
 [https://carshare.ninja](https://carshare.ninja)
 
