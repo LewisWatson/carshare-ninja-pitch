@@ -74,32 +74,23 @@ User experiences that have the reach of the web, and are reliable, fast, and eng
 
 ---
 
-# Current State
+# What is left to do?
 
 +++
 
 ## API
 
-- <input type="checkbox" disabled checked> Majority of REST endpoints implemented
-- <input type="checkbox" disabled checked> Integrates with MongoDB
-- <input type="checkbox" disabled checked> Docker image
-- <input type="checkbox" disabled checked> Firebase JWT support
-- <input type="checkbox" disabled> Restrict access based on user <!-- .element: class="fragment" data-fragment-index="1" -->
-- <input type="checkbox" disabled> Need to figure out where to host it <!-- .element: class="fragment" data-fragment-index="1" -->
+- Restrict access based on user
+- Sort out hosting
+- Monitoring (Prometheus)
 
 +++
 
 ## Front End
 
-- <input type="checkbox" disabled checked> Implemented some basic screens
-- <input type="checkbox" disabled checked> Firebase anonymous authentication.
-  - <input type="checkbox" disabled checked> JWT included in every API call
-- <input type="checkbox" disabled checked> PWA features mostly implemented
-- <input type="checkbox" disabled checked> Hosted on Firebase.
-- <input type="checkbox" disabled checked> LetsEncrypt HTTPS certificate
-- <input type="checkbox" disabled> Finish implementing UI <!-- .element: class="fragment" data-fragment-index="1" -->
-- <input type="checkbox" disabled> Add more authentication providers <!-- .element: class="fragment" data-fragment-index="1" -->
-- <input type="checkbox" disabled> Cache API data to fully implement Offline First <!-- .element: class="fragment" data-fragment-index="1" -->
+- Flesh out + polish UI <!-- .element: class="fragment" data-fragment-index="1" -->
+- Add more authentication providers <!-- .element: class="fragment" data-fragment-index="1" -->
+- Cache API data to fully implement Offline First <!-- .element: class="fragment" data-fragment-index="1" -->
 
 ---
 
