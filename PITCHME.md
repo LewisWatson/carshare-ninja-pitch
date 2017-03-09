@@ -1,10 +1,10 @@
 #HSLIDE
 
-# carshare.ninja
+# Car Share Ninja
 
 #HSLIDE
 
-## What is carshare.ninja
+## What is Car Share Ninja?
 
 - Tracks of who does what in a car share <!-- .element: class="fragment" data-fragment-index="1" -->
 - Suggests who should drive next <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -28,12 +28,14 @@ Ranking members by the benefit they personally recieve keeps things simple and f
 
 #VSLIDE
 
-Offers great flexibility.<!-- .element: class="fragment" data-fragment-index="1" --> Can handle: <!-- .element: class="fragment" data-fragment-index="2" -->
+Offers great flexibility.<!-- .element: class="fragment" data-fragment-index="1" --> 
+
+Can handle: <!-- .element: class="fragment" data-fragment-index="2" -->
 
 - holidays <!-- .element: class="fragment" data-fragment-index="2" -->
-- sick days <!-- .element: class="fragment" data-fragment-index="3" -->
-- differing shift patterns <!-- .element: class="fragment" data-fragment-index="4" -->
-- differing distances. Maybe you pick a member up on the way? <!-- .element: class="fragment" data-fragment-index="5" -->
+- sick days <!-- .element: class="fragment" data-fragment-index="2" -->
+- differing shift patterns <!-- .element: class="fragment" data-fragment-index="2" -->
+- differing distances, maybe you pick a member up on the way? <!-- .element: class="fragment" data-fragment-index="2" -->
 
 #HSLIDE
 
@@ -45,10 +47,10 @@ Offers great flexibility.<!-- .element: class="fragment" data-fragment-index="1"
 
 - Stateless microservice written Go  <!-- .element: class="fragment" data-fragment-index="1" -->
 - To be deployed as an autoscaling service in Kubernetes <!-- .element: class="fragment" data-fragment-index="2" -->
-- Authentication via Firebase JWT tokens <!-- .element: class="fragment" data-fragment-index="3" -->
+- Firebase JWT Authentication <!-- .element: class="fragment" data-fragment-index="3" -->
   - I created library for this called [firebase-jwt-auth](https://github.com/LewisWatson/firebase-jwt-auth)
-- RESTful and conforms to JSON:API specifications <!-- .element: class="fragment" data-fragment-index="5" -->
-- Scalable data persistance via MongoDB <!-- .element: class="fragment" data-fragment-index="6" -->
+- RESTful and implements JSON:API <!-- .element: class="fragment" data-fragment-index="4" -->
+- MongoDB data store <!-- .element: class="fragment" data-fragment-index="5" -->
 
 #VSLIDE
 
@@ -64,10 +66,6 @@ Offers great flexibility.<!-- .element: class="fragment" data-fragment-index="1"
   - Username/Password, social, anonymous 
   - JWT token included with every API call
 
-#VSLIDE
-
-![Architecture Overview](assets/overview.png)
-
 #HSLIDE
 
 # Current State
@@ -79,24 +77,25 @@ Offers great flexibility.<!-- .element: class="fragment" data-fragment-index="1"
 - Majority of REST endpoints implemented
 - Integrates with MongoDB
 - Docker image
-- Able to verify Firebase JWT Tokens
+- Firebase JWT support
 - TODO <!-- .element: class="fragment" data-fragment-index="1" -->
-  - Currently restricting access based on JWT
+  - Restrict access based on user
   - Need to figure out where to host it
 
 #VSLIDE
 
 ## Front End
 
-- Implemented some of the key screens
+- Implemented some basic screens
 - Firebase anonymous authentication.
   - JWT included in every API call
-- PWA features mostly implemented, still need to tackle offline first
+- PWA features mostly implemented
 - Hosted on Firebase.
-- HTTPS certificate provided by LetsEncrypt
+- LetsEncrypt HTTPS certificate
 - TODO <!-- .element: class="fragment" data-fragment-index="1" -->
-  - Still need to implement the full set of screens
+  - Finish implementing UI
   - Add more authentication providers
+  - Cache API data to fully implement Offline First
 
 #HSLIDE
 
@@ -104,10 +103,6 @@ Offers great flexibility.<!-- .element: class="fragment" data-fragment-index="1"
 
 #VSLIDE
 
-#### Early Preview Available @
+#### Early Preview Available
 
 [https://carshare.ninja](https://carshare.ninja)
-
-#HSLIDE
-
-FIN
