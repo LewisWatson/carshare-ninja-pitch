@@ -86,7 +86,7 @@ User experiences that have the reach of the web, and are reliable, fast, and eng
 - Integrates with MongoDB
 - Docker image
 - Firebase JWT support
-- `//TODO` <!-- .element: class="fragment" data-fragment-index="1" -->
+- TODO <!-- .element: class="fragment" data-fragment-index="1" -->
   - Restrict access based on user <!-- .element: class="fragment" data-fragment-index="1" -->
   - Need to figure out where to host it <!-- .element: class="fragment" data-fragment-index="1" -->
 
@@ -100,7 +100,7 @@ User experiences that have the reach of the web, and are reliable, fast, and eng
 - PWA features mostly implemented
 - Hosted on Firebase.
 - LetsEncrypt HTTPS certificate
-- `//TODO` <!-- .element: class="fragment" data-fragment-index="1" -->
+- TODO <!-- .element: class="fragment" data-fragment-index="1" -->
   - Finish implementing UI <!-- .element: class="fragment" data-fragment-index="1" -->
   - Add more authentication providers <!-- .element: class="fragment" data-fragment-index="1" -->
   - Cache API data to fully implement Offline First <!-- .element: class="fragment" data-fragment-index="1" -->
