@@ -35,7 +35,7 @@ Ranking members by the benefit they personally recieve keeps things simple and f
 - differing shift patterns 
 - differing distances, maybe you pick a member up on the way?
 
-### All gracefully handled
+##### All gracefully handled
 
 ---
 
