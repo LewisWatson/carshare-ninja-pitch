@@ -1,10 +1,10 @@
 ---
 
-# Car Share Ninja
+# carshare.ninja
 
 ---
 
-## What is Car Share Ninja?
+## What is carshare.ninja?
 
 - Tracks who does what in a car share <!-- .element: class="fragment" data-fragment-index="1" -->
 - Suggests who should drive next <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -30,12 +30,14 @@ Ranking members by the benefit they personally recieve keeps things simple and f
 
 ## Flexibility
 
-Can handle: <!-- .element: class="fragment" data-fragment-index="1" -->
+- holidays 
+- sick days 
+- differing shift patterns 
+- differing distances, maybe you pick a member up on the way?
 
-- holidays <!-- .element: class="fragment" data-fragment-index="1" -->
-- sick days <!-- .element: class="fragment" data-fragment-index="1" -->
-- differing shift patterns <!-- .element: class="fragment" data-fragment-index="1" -->
-- differing distances, maybe you pick a member up on the way? <!-- .element: class="fragment" data-fragment-index="1" -->
+### All gracefully handled
+
+---
 
 # Technical Overview
 
@@ -43,31 +45,31 @@ Can handle: <!-- .element: class="fragment" data-fragment-index="1" -->
 
 ## API
 
-- Stateless microservice written [Go](https://golang.org)  <!-- .element: class="fragment" data-fragment-index="1" -->
-- To be deployed as an autoscaling service in [Kubernetes](https://kubernetes.io/) <!-- .element: class="fragment" data-fragment-index="2" -->
-- [Firebase JWT Authentication](https://firebase.google.com/docs/auth/admin/verify-id-tokens#verify_id_tokens_using_a_third-party_jwt_library) <!-- .element: class="fragment" data-fragment-index="3" -->
-  - Currently no official library, so created one called [firebase-jwt-auth](https://github.com/LewisWatson/firebase-jwt-auth)
-- RESTful and implements [JSON:API](http://jsonapi.org/) <!-- .element: class="fragment" data-fragment-index="4" -->
-- [MongoDB](https://www.mongodb.com/) data store <!-- .element: class="fragment" data-fragment-index="5" -->
+- Uses [Kubernetes](https://kubernetes.io/) for automated deployment, scaling and management
+- Containerised, stateless, microservice written [Go](https://golang.org)
+- [Firebase JWT Authentication](https://firebase.google.com/docs/auth/admin/verify-id-tokens#verify_id_tokens_using_a_third-party_jwt_library) 
+  - Currently no official Go library, so created one called [firebase-jwt-auth](https://github.com/LewisWatson/firebase-jwt-auth)
+- RESTful and implements [JSON:API](http://jsonapi.org/) 
+- [MongoDB](https://www.mongodb.com/) data store
 
 ---
 
 ## Front End
 
-- [Progressive Web Application](https://developers.google.com/web/progressive-web-apps/) written in [Angular2](https://angular.io/)  <!-- .element: class="fragment" data-fragment-index="1" -->
-- Uses [Material design](https://material.io/guidelines/material-design/introduction.html)<!-- .element: class="fragment" data-fragment-index="2" -->
-- [Firebase authentication](https://firebase.google.com/docs/auth/) <!-- .element: class="fragment" data-fragment-index="7" -->
+- [Progressive Web Application](https://developers.google.com/web/progressive-web-apps/) written in [Angular2](https://angular.io/)
+- Uses [Material design](https://material.io/guidelines/material-design/introduction.html)
+- [Firebase authentication](https://firebase.google.com/docs/auth/)
   - Uses official Angular2 library [AngularFire2](https://github.com/angular/angularfire2)
   - Username/Password, social, and anonymous
   - [JWT](https://jwt.io) token included with every API call
 
 ---
 
-#### Early Preview Available
+#### Early Preview
 
 [https://carshare.ninja](https://carshare.ninja)
 
-##### Source
+##### Source Code
 
 https://github.com/LewisWatson/carshare-angular2/
 https://github.com/LewisWatson/carshare-back/
