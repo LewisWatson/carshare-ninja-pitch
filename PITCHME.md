@@ -35,7 +35,7 @@ Ranking members by the benefit they personally recieve keeps things simple and f
 - differing shift patterns 
 - differing distances, maybe you pick a member up on the way?
 
-##### All gracefully handled
+All gracefully handled by the system
 
 ---
 
@@ -46,7 +46,7 @@ Ranking members by the benefit they personally recieve keeps things simple and f
 ## API
 
 - Uses [Kubernetes](https://kubernetes.io/) for automated deployment, scaling and management
-- Containerised, stateless, microservice written [Go](https://golang.org)
+- Containerised, stateless microservice written in [Go](https://golang.org)
 - [Firebase JWT Authentication](https://firebase.google.com/docs/auth/admin/verify-id-tokens#verify_id_tokens_using_a_third-party_jwt_library) 
   - Currently no official Go library, so created one called [firebase-jwt-auth](https://github.com/LewisWatson/firebase-jwt-auth)
 - RESTful and implements [JSON:API](http://jsonapi.org/) 
